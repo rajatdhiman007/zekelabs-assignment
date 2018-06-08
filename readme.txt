@@ -1,0 +1,5 @@
+Here is my completed assignment which is attached as a zip file which contains 2 HTML files, 1 CSS file, 2 js files and some images.
+The website has a home page which has a slideshow with a navigation bar and links to various animal types like cats, dogs, fish, and rabbits.
+Meanwhile, I have made a sample page just for DOGS so kindly look for the See More button for the dogs' link and you'll be redirected to another page.
+On this page, the user is given information regarding various dogs available of different species an is given 2 options. He can either search for a particular dog by typing the dog name or he can filter the dogs on the basis of various species(given options are Labrador, Pugs, and German Shepherds for the meantime) using the drop-down filter list. 
+The technologies used are HTML, CSS, BOOTSTRAP, JAVASCRIPT, and JQUERY.

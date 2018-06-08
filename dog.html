@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Zekey Pet Shop</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body id="page1">
+<header>
+  <div class="inner">
+    <div class="header-meta">
+      <h3 style="float: left;">ZEKEY PET SHOP</h3>
+      <div> Conatct us for your new pet?<br>
+        Call us : <span class="phone"> 1-234-567-8900 </span> 
+      </div>
+    </div>
+    <nav>
+      <ul class="sf-menu">
+        <li class="current"><a href="index.html">Home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li> <a href="services.html">services</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<section>
+  <div class="container_25">
+    <div>
+      <h1>Filter by:</h1>
+      <select class="filter" id="dogtype" data-tableId="myTable">
+        <option value="select species">Select species</option>
+        <option value="german">German Shephard</option>
+        <option value="pug">Pug</option>
+        <option value="labra">Labrador</option>
+      </select>
+      <br>OR<br><p>Search for a specific dog:</p>  
+      <input style="width: 500px;" class="form-control" id="myInput" type="text" placeholder="Search.."><br>
+    </div>
+    <div>
+      <table id="myTable" class="table" style="width: 1200px;">
+        <tr class="row" data-type="labra" >
+          <td><img src="images/lb1.jpg" style="width: 150px;"></td>
+          <td style="width: 5000px;">The Labrador Retriever, or just Labrador, is a type of retriever-gun dog. The Labrador is one of the most popular breeds of dog in Canada, the United Kingdom and the United States.</td>
+          <td style="width: 5000px;"><button>Buy Now</button></td>
+        </tr>
+        <tr class="row" data-type="pug">
+          <td><img src="images/pug1.jpg" style="width: 150px;"></td>
+          <td style="width: 5000px;">The Pug is a breed of dog with physically distinctive features of a wrinkly, short-muzzled face, and curled tail.</td>
+          <td style="width: 5000px;"><button>Buy Now</button></td>
+        </tr>
+        <tr class="row" data-type="german">
+          <td><img src="images/g1.jpg" style="width: 150px;"></td>
+          <td style="width: 5000px;">The German Shepherd is a breed of medium to large-sized working dog that originated in Germany. The breed's officially recognized name is German Shepherd Dog in the English language.</td>
+          <td style="width: 5000px;"><button>Buy Now</button></td>
+        </tr>
+        <tr class="row" data-type="labra">
+          <td><img src="images/lb2.jpeg" style="width: 150px;"></td>
+          <td style="width: 5000px;">The Labrador Retriever, or just Labrador, is a type of retriever-gun dog. The Labrador is one of the most popular breeds of dog in Canada, the United Kingdom and the United States.</td>
+          <td style="width: 5000px;"><button>Buy Now</button></td>
+        </tr>
+        <tr class="row" data-type="pug">
+          <td><img src="images/pug2.jpg" style="width: 150px;"></td>
+          <td style="width: 5000px;">The Pug is a breed of dog with physically distinctive features of a wrinkly, short-muzzled face, and curled tail.</td>
+          <td style="width: 5000px;"><button>Buy Now</button></td>
+        </tr>
+        <tr class="row" data-type="german">
+          <td><img src="images/g2.jpg" style="width: 150px;"></td>
+          <td style="width: 5000px;">The German Shepherd is a breed of medium to large-sized working dog that originated in Germany. The breed's officially recognized name is German Shepherd Dog in the English language.</td>
+          <td style="width: 5000px;"><button>Buy Now</button></td>
+        </tr>         
+      </table>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="copyright"><strong> © Zekey Pet Shop</strong></div>
+</footer>
+<script type="text/javascript" src=js/jsfile.js></script>
+</body>
+</html>
